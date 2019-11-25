@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Paypal Music Club</title>
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap-theme.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/hover.css}"/>
+    <link rel="stylesheet" th:href="@{/css/buttons.css}"/>
+    <link rel="stylesheet" th:href="@{/font-awesome/css/font-awesome.css}">
+
+</head>
+
+<body>
+<main role="main" class="container">
+
+    <div class="header">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="logo">
+                    <i>PlayPay</i>
+                    | 分享 * 结伴 * 攻略
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="trace">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li>
+                        <a class="btn-link" href="#">俱乐部</a>
+                    </li>
+                    <li>
+                        <a class="btn-link" href="#">音乐俱乐部</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="club-title">
+        <div class="row">
+            <div class="col-md-8">
+                <strong class="titles" style="color: #e37569;">Music Zone</strong>
+            </div>
+            <div class="col-md-4 moderators">
+                <dl class="clearfix">
+                    <dt class="fontYahei">版主</dt>
+                    <dd>
+                        <a href="#" target="_blank">
+                            <img th:src="@{/img/icon/icon-girl-3.png}"  width="32" height="32" />
+                            <span class="bannername">Teemo</span>
+                        </a>
+                        <span class="wraplist"></span>
+                    </dd>
+                    <dd>
+                        <a href="#" target="_blank">
+                            <img th:src="@{/img/icon/icon-girl-2.png}"  width="32" height="32" />
+                            <span class="bannername">Mory</span>
+                        </a>
+                        <span class="wraplist"></span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 clearfix texts club-signature">
+                快醒醒啊喂臭小子，乐队排练就要开始啦！
+            </div>
+            <div class="col-md-4 clearfix">
+                <div class="member-container">
+                    <dl class="results" style="height:auto">
+                        <dt class="texts fontYahei">成员</dt>
+                        <dd class="animating list-unstyled">
+                            <a class="hvr-float-shadow bind_hover_card" data-toggle="popover" data-placement="top" data-trigger="hover" id="" href="javascript:void(0);">
+                                <img th:src="@{/img/icon/music_1.png}" />
+                            </a>
+                        <dd class="animating list-unstyled">
+                            <a class="hvr-float-shadow bind_hover_card" data-toggle="popover" data-placement="top" data-trigger="hover" id="" href="javascript:void(0);">
+                                <img th:src="@{/img/icon/music_1.png}" />
+                            </a>
+                        </dd>
+                        <dd class="animating list-unstyled">
+                            <a class="hvr-float-shadow bind_hover_card" data-toggle="popover" data-placement="top" data-trigger="hover" id="" href="javascript:void(0);">
+                                <img th:src="@{/img/icon/music_1.png}" />
+                            </a>
+                        </dd>
+                        <dd class="animating list-unstyled">
+                            <a class="hvr-float-shadow bind_hover_card" data-toggle="popover" data-placement="top" data-trigger="hover" id="" href="javascript:void(0);">
+                                <img th:src="@{/img/icon/music_1.png}" />
+                            </a>
+                        </dd>
+                        <dd class="animating list-unstyled">
+                            <a class="hvr-float-shadow bind_hover_card" data-toggle="popover" data-placement="top" data-trigger="hover" id="" href="javascript:void(0);">
+                                <img th:src="@{/img/icon/music_1.png}" />
+                            </a>
+                        </dd>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="slidebox" class="carousel slide" data-ride="carousel">
+
+                    <!-- indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="slidebox" data-slide-to="0" class="active"></li>
+                        <li data-target="slidebox" data-slide-to="1"></li>
+                        <li data-target="slidebox" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img th:src="@{/img/picture/m1.jpg}">
+                            <div class="carousel-caption">
+                                <h3>五月天：第二人生</h3>
+                                <p>阿信当时还没有怎么发福</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img th:src="@{/img/picture/m2.jpg}">
+                            <div class="carousel-caption">
+                                <h3>披头士乐队</h3>
+                                <p>世界上最著名的人行道就此诞生</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img th:src="@{/img/picture/m3.jpg}">
+                            <div class="carousel-caption">
+                                <h3>枪花乐队</h3>
+                                <p>天堂天堂开开门，你别不出声我知道你在家～</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- alter button -->
+                    <a class="carousel-control-prev" href="#slidebox" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#slidebox" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+            <!--Bulletin Board-->
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="fa fa-calendar"></span><b>最新公告</b></div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="Bulletin">
+                                    <li class="news-item">
+                                        <table cellpadding="4">
+                                            <tr>
+                                                <td><img src="img/icon/music.png" width="50" class="img-circle" /></td>
+                                                <td>18楼开巡回演唱会<a href="#">更多...</a></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    <li class="news-item">
+                                        <table cellpadding="4">
+                                            <tr>
+                                                <td><img src="img/icon/music.png" width="50" class="img-circle" /></td>
+                                                <td>19楼开巡回演唱会<a href="#">更多...</a></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    <li class="news-item">
+                                        <table cellpadding="4">
+                                            <tr>
+                                                <td><img src="img/icon/music.png" width="50" class="img-circle" /></td>
+                                                <td>20楼开巡回演唱会<a href="#">更多...</a></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    <li class="news-item">
+                                        <table cellpadding="4">
+                                            <tr>
+                                                <td><img src="img/icon/music.png" width="50" class="img-circle" /></td>
+                                                <td>21楼开巡回演唱会<a href="#">更多...</a></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    <li class="news-item">
+                                        <table cellpadding="4">
+                                            <tr>
+                                                <td><img src="img/icon/music.png" width="50" class="img-circle" /></td>
+                                                <td>22楼开巡回演唱会<a href="#">更多...</a></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="club-alert">
+        <div class="row">
+            <div class="col-md-8 alert-wrapper">
+                用户请登陆从而继续使用论坛功能
+            </div>
+            <div class="col-md-4 alert-action">
+                <button class="button button-primary button-pill button-small hvr-icon-pulse-grow">
+                    Sign In <span class="hvr-icon fa fa-sign-in"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="forum">
+        <div class="row">
+            <div class="main-content col-md-12" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 900px;">
+                <div class="main-content-wrapper" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: translateY(20px); top: 0px; max-width: 1080px;">
+                    <div class="main-content-inner drop-shadow">
+                        <div class="topics-list">
+                            <table class="table">
+                                <thead class="forum-head">
+                                <tr>
+                                    <th>论坛</th>
+                                    <th>话题数</th>
+                                    <th>发帖数</th>
+                                    <th>最新发帖</th>
+                                    <th>发布新贴/活动</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 class="forum-list-item">
+                                            <a class="forum-list-item-title" href="#">俱乐部日常活动</a>
+                                        </h4>
+                                        <p class="forum-list-item-desc">
+                                            俱乐部日常活动通知记录
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item">12</p>
+                                    </td>
+                                    <td>
+                                        <p class="forum-list-item-desc">2 日 5 小时前</p>
+                                        <a class="topic-author" href="#">
+                                            <span class="name">Jarvis Yao</span>
+                                            <span class="avatar">
+                                                <img th:src="@{/img/icon/icon-girl-2.png}" />
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <button class="button button-3d button-primary button-circle button-small">
+                                            <i class="fa fa-grav fa-2x"></i>
+                                        </button>
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<!-- /.container -->
+
+<script th:src="@{/js/jquery-1.11.0.min.js}" type="text/javascript"></script>
+<script th:src="@{/js/newsBox.js}" type="text/javascript"></script>
+<script th:src="@{/js/popper.min.js}"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".Bulletin").bootstrapNews({
+            newsPerPage: 5,
+            autoplay: true,
+            pauseOnHover:true,
+            direction: 'up',
+            newsTickerInterval: 4000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+        $("[data-toggle='popover']").popover({
+            html : true,
+            title: title(),
+            delay:{show:500, hide:1500},
+            content: function() {
+                return content();
+            }
+        });
+    });
+    function title() {
+        return '帅气逼人的Tony老师';
+    }
+
+    function content() {
+        var data = $(
+            "    <div class='pop-window'>\n" +
+            "        <div class='pop-window-container'>\n" +
+            "            <div class='pop-window-photo-shadow'>\n" +
+            "                <div class='pop-window-photo-wrap'>\n" +
+            "                    <img class=\"pop-window-photo\" src='/img/icon/icon-boy-1.png'/>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "            <div class=\"button-lib\">\n" +
+            "                <a id=\"follow\" class=\"button button-small button-glow button-rounded button-raised button-primary\"  style=\"text-shadow: black 4px 2px 2px; font-weight: bold\"><span class=\"fa fa-heart-o\"></span>关注</a>\n" +
+            "            </div>\n" +
+            "            <div class=\"profile\">\n" +
+            "                <div class=\"sitemap\"><span class=\"fa fa-user-circle\"></span><strong class=\"texts\">NT ID</strong></div>\n" +
+            "                <div class=\"sitemap\"><span class=\"fa fa-sitemap\"></span><strong class=\"texts\">组织关系</strong></div>\n" +
+            "                <div class=\"slack\"><span class=\"fa fa-slack\"></span><strong class=\"texts\">发起私聊</strong></div>\n" +
+            "                <div class=\"email\"><span class=\"fa fa-envelope\"></span><strong class=\"texts\">邮箱地址</strong></div>\n" +
+            "                <div class=\"social\"><span class=\"fa fa-qq\"></span><span class=\"fa fa-wechat\"></span><span class=\"fa fa-weibo\"></span><span class=\"fa fa-qrcode\"></span></div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </div>"
+        );
+
+        return data;
+    }
+</script>
+</body>
+</html>

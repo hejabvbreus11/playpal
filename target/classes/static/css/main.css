@@ -1,0 +1,546 @@
+body {
+    padding-top: 2rem;
+
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB","Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+
+    color: #323232;
+
+    text-align: left;
+}
+
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-size: 100%;
+    font-weight: 500;
+
+}
+
+.forum .table td, .forum .table th{
+    padding: .75rem;
+
+    vertical-align: center;
+
+    border-top: 1px solid
+    #dee2e6;
+
+    text-align: center;
+}
+
+td a{
+    font-size: 12px;
+}
+
+ul:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.trace{
+    margin: 10px 0;
+}
+
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555;
+}
+
+.small-size
+{
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #0073b6;
+
+    text-decoration: none;
+}
+
+.club-title{
+    padding: 2px 2px;
+}
+
+.titles{
+    font: 12px/1.5 Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,宋体,sans-serif;
+
+    float: left;
+
+    text-align: left;
+
+    font-size: 36px;
+
+    color: #147850;
+
+    line-height: 38px;
+
+    max-width: 680px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+}
+
+.moderators{
+    float: right;
+
+    height: 32px;
+
+    margin: 0;
+
+    padding: 0;
+
+    outline: none;
+
+    color: #323232;
+
+    text-align: left;
+}
+
+.clearfix::after{
+    display: block;
+
+    font-size: 0;
+
+    height: 0;
+}
+
+dl{
+    line-height: 32px;
+}
+
+dt{
+    width: 54px;
+
+    float: left;
+
+    font-size: 18px;
+
+    color: #636363;
+}
+
+dd{
+    height: 32px;
+
+    padding-right: 10px;
+
+    float: left;
+}
+
+.wraplist{
+    position: relative;
+
+    display: inline-block;
+
+    width: 18px;
+}
+
+.fontYahei{
+    font-family: Hiragino Sans GB,Microsoft YaHei,黑体,宋体,sans-serif;
+}
+
+.bannername{
+    float: left;
+
+    max-width: 103px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+}
+
+.club-title .moderators dd img{
+    float: left;
+
+    border-radius: 50%;
+
+    width: 32px;
+
+    height: 32px;
+
+    margin-right: 10px;
+}
+.club-title .texts{
+    width: 680px;
+
+    float: left;
+
+    line-height: 18px;
+
+    color: #959595;
+
+    font-size: 12px;
+}
+
+.club-signature{
+    padding-top: 10px;
+}
+
+.contents{
+    max-width: 1080px;
+
+    background-color:#f5f5f5;
+
+    opacity:0.8;
+
+    filter:alpha(opacity=80);
+
+    box-shadow: inset 0 0 1px #e5e5e5;
+
+    border-top: 1px solid #e5e5e5;
+
+    padding: 10px;
+
+    border-bottom: none;
+}
+
+.carousel-inner img {
+    width: 700px;
+    height: 400px;
+}
+
+.member-container img{
+    width: 35px;
+}
+
+#slidebox{
+    margin: 10px;
+}
+
+.member-container .texts{
+    width: 40px;
+
+    float: left;
+
+    line-height: 32px;
+
+    color: #959595;
+
+    font-size: 12px;
+}
+
+.pop-window{
+    height: 220px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.pop-window-container{
+    width: 100%;
+
+    position: absolute;
+
+    background-color: beige;
+
+    background-size: 100%;
+}
+
+.pop-window-photo-shadow{
+    position: relative;
+
+    width: 68px;
+
+    height: 68px;
+
+    margin: 10px auto 0;
+
+    padding: 4px;
+
+    background: rgba(0,25,255,0.3);
+    border-radius: 50%;
+
+}
+
+.pop-window-photo-wrap{
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.pop-window-photo{
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.button-lib{
+
+    color: #FFF;
+    
+    margin-top: 5px;
+
+    text-align: center;
+}
+
+.profile{
+    color: #489;
+
+    margin-top: 5px;
+
+    text-align: center;
+}
+
+.profile .texts{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social{
+    color: #18F;
+
+    text-space: 5px;
+
+    text-align: center;
+}
+
+.main-content{
+    box-sizing: border-box;
+}
+
+.main-content-inner.drop-shadow{
+    padding: 30px 20px;
+
+    box-shadow: 0 0 3px
+
+    rgba(0, 0, 0, 0.1);
+}
+
+.table:last-child{
+    margin-bottom: 0;
+}
+
+.forum-head{
+    font-size: 14px;
+
+    line-height: 24px;
+
+    font-family: "Raleway", sans-serif;
+
+    color: #555;
+}
+
+.forum-list-item{
+    font-weight: 500;
+
+    color: #555;
+
+    line-height: 24px;
+
+    font-size: 14px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.forum-list-item-desc {
+
+    margin-top: 5px;
+
+    margin-bottom: 0;
+
+    color: #999;
+
+    font-family: "Hiragino Sans GB", sans-serif;
+
+    font-size: 12px;
+
+    line-height: 22px;
+
+    font-weight: 400;
+
+    word-wrap: break-word;
+}
+
+.forum-list-item-title{
+    display: inline-block;
+
+    color: inherit;
+
+    font-weight: inherit;
+}
+
+.topic-author{
+    display: block;
+
+    color: #555;
+
+    font-size: 0;
+
+    line-height: 0;
+}
+
+.topic-author .avatar::before{
+    content: " ";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background-color: #1da1f2;
+
+    border-radius: 50%;
+
+    opacity: 0.3;
+
+    z-index: -1;
+}
+
+.topic-author .avatar {
+
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    padding: 2px;
+    vertical-align: middle;
+    z-index: 0;
+}
+
+.topic-author .avatar img{
+    border-radius: 50%;
+
+    max-width: 20px;
+
+    height: auto;
+}
+
+.topic-author .name {
+
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: middle;
+
+}
+
+.topic-author span {
+
+    display: inline-block;
+
+}
+
+.trace ul{
+    font-family: "Microsoft YaHei", sans-serif;
+
+    color:#aaa;
+}
+
+.trace .breadcrumb{
+    margin-top: 5px;
+
+    padding: 0 0 3px;
+
+    background-color: transparent;
+
+    border-radius: 0;
+
+    font-size: 0;
+
+    line-height: 0;
+}
+
+.trace .breadcrumb > li > a,
+.trace .breadcrumb > li > span,
+.trace .breadcrumb > li::before{
+    font-size: 12px;
+
+    line-height: 22px;
+}
+
+.trace .breadcrumb > li + li::before{
+    content: "\f0da";
+
+    margin: 0 5px 0;
+
+    font-family: "FontAwesome";
+
+    font-size: 12px;
+
+    line-height: 22px;
+
+    padding: 0 5px;
+
+    color: #ccc;
+}
+
+.panel-heading b{
+    margin: 0 0 2px 5px;
+}
+
+.club-alert{
+    max-width: 1080px;
+    margin: 20px 40px 0 20px;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.club-alert .alert-wrapper{
+    background-color: #1da1f2;
+
+    color: #fff;
+}
+
+.club-alert .alert-action{
+    text-align: right;
+}
+
+.club-alert .alert-action button{
+    text-align: center;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+.header .logo{
+    float: left;
+    font-size: 18px;
+    color: #3f9f5f;
+    margin-top: 20px;
+}
+
+.header .logo i{
+    font-size: 36px;
+    font-style: normal;
+}
