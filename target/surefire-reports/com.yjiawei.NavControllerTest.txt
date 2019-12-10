@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.yjiawei.NavControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.647 s <<< FAILURE! - in com.yjiawei.NavControllerTest
+main(com.yjiawei.NavControllerTest)  Time elapsed: 0.292 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.yjiawei.NavControllerTest.main(NavControllerTest.java:35)
+
+hello(com.yjiawei.NavControllerTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.yjiawei.NavControllerTest.hello(NavControllerTest.java:50)
+
